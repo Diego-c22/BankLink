@@ -15,7 +15,26 @@ class MenuViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func Inquiries(_ sender: Any) {
+        performSegue(withIdentifier: "Inquiries", sender: self)
 
+    }
+    
+    @IBAction func Payments(_ sender: Any) {
+        performSegue(withIdentifier: "Payments", sender: self)
+    }
+    @IBAction func Transfers(_ sender: Any) {
+        performSegue(withIdentifier: "Transfers", sender: self)
+    }
+    @IBAction func Purchases(_ sender: Any) {
+        performSegue(withIdentifier: "Purchases", sender: self)
+    }
+    @IBAction func Credits(_ sender: Any) {
+        performSegue(withIdentifier: "Credits", sender: self)
+    }
+    @IBAction func Maps(_ sender: Any) {
+        performSegue(withIdentifier: "Maps", sender: self)
+    }
     /*
     // MARK: - Navigation
 
